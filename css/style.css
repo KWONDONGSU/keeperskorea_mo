@@ -1,0 +1,579 @@
+@media all and (min-width: 980px) and (max-width: 1024px) {
+  .inner {
+    max-width: 1280px;
+    /* min-width: 1024px; */
+    margin: 0 auto;
+  }
+  /* 페이지별 영역 */
+  body {
+    overflow-x: hidden;
+    background-color: #8bcb47;
+  }
+  #wrap {
+    width: 100%;
+    height: 10rem;
+    position: relative;
+  }
+  /*********************header****************************/
+  .nav_btn {
+    display: none;
+  }
+  #header .inner {
+    position: relative;
+  }
+
+  #header .header_top {
+    width: calc(100% - 250px);
+    float: right;
+    text-align: right;
+  }
+  #header::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  #header #nav {
+    position: relative;
+    float: right;
+    margin-top: 46px;
+    right: 3rem;
+  }
+  .t_mn {
+    color: #ffffff;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .t_mn > li {
+    letter-spacing: -3px;
+  }
+  #header #nav .depth1 > li {
+    float: left;
+    margin-left: 0rem;
+    padding-left: 3.12rem;
+    padding-bottom: 3.12rem;
+    color: #000000;
+  }
+  #header #nav .depth1 > li > a {
+    display: block;
+    line-height: 40px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: #ffffff;
+    font-family: "Noto Sans KR", cursive;
+  }
+  #header #nav .depth1 > li:hover ul {
+    display: block;
+  }
+  #header #nav .depth1 ul {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+    z-index: 99999;
+  }
+  #header #nav .depth1 ul li {
+    background: url(../) no-repeat;
+    display: inline-block;
+    padding: 0 30px;
+  }
+  #header #nav .depth1 ul li:last-child {
+    background: none;
+  }
+  /*********************header 끝****************************/
+  /* main시작 */
+  /* 파란배경시작 */
+  .blue {
+    width: 100%;
+    height: 90rem;
+    background-color: #8bcb47;
+  }
+  .first_circle {
+    width: 6.81rem;
+    height: 6.81rem;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    position: absolute;
+    top: 19rem;
+    left: 48rem;
+  }
+  .first_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #3da4d9;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 32rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .second_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #3da4d9;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 47.6rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .third_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #3da4d9;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 63.4rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .four_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #3da4d9;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 79.4rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .five_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #3da4d9;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 94.4rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .se_1 {
+    position: absolute;
+    left: 1.42rem;
+    top: 1.9rem;
+    z-index: 9;
+    font-size: 1.9rem;
+    font-family: "Noto Sans KR", cursive;
+    font-weight: 900;
+    color: #8bcb47;
+  }
+  /* 파란배경끝 */
+  /* 공백 */
+  /* 공백 */
+  /* 연그린 */
+  .rightgreen {
+    width: 100%;
+    height: 100rem;
+    background-color: #3da4d9;
+  }
+  .six_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ed9a16;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 104.4rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .second_circle {
+    width: 6rem;
+    height: 6rem;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    position: absolute;
+    top: 113rem;
+    left: 48.9rem;
+  }
+  .se_2 {
+    position: absolute;
+    left: 0.9rem;
+    top: 1.5rem;
+    z-index: 9;
+    font-size: 1.9rem;
+    font-family: "Noto Sans KR", cursive;
+    font-weight: 900;
+    color: #3da4d9;
+  }
+  .seven_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ed9a16;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 117rem;
+    left: 33.2rem;
+    z-index: 9;
+  }
+  .third_circle {
+    width: 7rem;
+    height: 7rem;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    position: absolute;
+    top: 117.2rem;
+    left: 14rem;
+  }
+  .se_3 {
+    position: absolute;
+    left: 1.4rem;
+    top: 2rem;
+    z-index: 9;
+    font-size: 1.9rem;
+    font-family: "Noto Sans KR", cursive;
+    font-weight: 900;
+    color: #3da4d9;
+  }
+  .eight_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ed9a16;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 127.4rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .nine_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ed9a16;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 143.4rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .ten_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ed9a16;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 160.4rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .eleven_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ed9a16;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 178.4rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .twelve_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #ed9a16;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 194.9rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  /* 연그린끝 */
+  /* 하늘배경시작 */
+  .sky {
+    width: 100%;
+    height: 100rem;
+    background-color: #ed9a16;
+  }
+  .thirteen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 205.9rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .fourteen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 216.9rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .fiveteen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 227.9rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .sixteen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 237.9rem;
+    left: 15.2rem;
+    z-index: 9;
+  }
+  .four_circle {
+    width: 7rem;
+    height: 7rem;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    position: absolute;
+    top: 244.4rem;
+    left: 14rem;
+  }
+  .se_4 {
+    position: absolute;
+    left: 1.4rem;
+    top: 2rem;
+    z-index: 9;
+    font-size: 1.9rem;
+    font-family: "Noto Sans KR", cursive;
+    font-weight: 900;
+    color: #3da4d9;
+  }
+  .seventeen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 256.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .eighteen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 269.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .nineteen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 281.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .twenteen_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #a858b1;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 294.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  /* 하늘배경 끝 */
+  /* 연한파랑배경시작 */
+  .light_blue {
+    width: 100%;
+    height: 85.4rem;
+    background-color: #a858b1;
+  }
+  .twenteen1_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #8bcb47;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 303.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .twenteen2_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #8bcb47;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 315.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .twenteen3_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #8bcb47;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 328.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .twenteen4_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #8bcb47;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 342.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .twenteen5_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #8bcb47;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 355.9rem;
+    left: 52.2rem;
+    z-index: 9;
+  }
+  .five_circle {
+    width: 8rem;
+    height: 8rem;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    position: absolute;
+    top: 364.4rem;
+    left: 48rem;
+  }
+  .se_5 {
+    position: absolute;
+    left: 1.4rem;
+    top: 2rem;
+    z-index: 9;
+    font-size: 2.4rem;
+    font-family: "Noto Sans KR", cursive;
+    font-weight: 900;
+    color: #3da4d9;
+  }
+  .twenteen6_mini_circle {
+    width: 1.3rem;
+    height: 1.3rem;
+    background-color: #8bcb47;
+    border: 5px solid #ffffff;
+    border-radius: 2rem;
+    position: absolute;
+    top: 369.9rem;
+    left: 32.2rem;
+    z-index: 9;
+  }
+  .six_circle {
+    width: 8rem;
+    height: 8rem;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    position: absolute;
+    top: 369.4rem;
+    left: 12rem;
+  }
+  .se_6 {
+    position: absolute;
+    left: 1.4rem;
+    top: 2rem;
+    z-index: 9;
+    font-size: 2.4rem;
+    font-family: "Noto Sans KR", cursive;
+    font-weight: 900;
+    color: #3da4d9;
+  }
+  /* 연한파랑끝 */
+  .main_contents img {
+    position: absolute;
+    top: 15.5rem;
+    left: 10.5rem;
+    width: 43rem;
+  }
+  /* main끝 */
+
+  /*********************footer****************************/
+
+  .last {
+    width: 100%;
+    height: 191px;
+    background-color: #ffffff;
+    z-index: 9999;
+    position: absolute;
+    top: 385rem;
+  }
+  .footer_mn {
+    width: 100%;
+
+    margin-top: 20px;
+  }
+  .ft_text0 {
+    float: left;
+    margin-left: 31rem;
+  }
+  .ft_text0 img {
+    width: 5rem;
+  }
+  .ft_text1 {
+    width: 60%;
+    font-size: 1rem;
+    position: absolute;
+    left: 15.5rem;
+    top: 4rem;
+    color: rgb(77, 77, 77);
+  }
+  .ft_text2 {
+    float: left;
+    width: 47%;
+    font-size: 1rem;
+    color: rgb(77, 77, 77);
+    position: absolute;
+    left: 19rem;
+    top: 6.4rem;
+  }
+  .ft_text3 {
+    width: 23%;
+    float: left;
+    font-size: 1rem;
+    color: rgb(77, 77, 77);
+    position: absolute;
+    top: 9rem;
+    left: 27rem;
+  }
+  .ft_textbox {
+    clear: both;
+    padding-top: 2rem;
+    line-height: 2;
+  }
+  /*********************footer 끝****************************/
+}
